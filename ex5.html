@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var kt = eval(prompt("Diem Kiem Tra = "));
+        var gk = eval(prompt("Diem Giua Ki = "));
+        var ck = eval(prompt("Diem Cuoi Ki = "));
+        var dtb = (kt+gk*2+ck*3)/6;
+        if (dtb<5){
+            alert("Hoc Luc Yeu");
+        } else if (dtb<6.5) {
+            alert("Hoc luc TB");
+        } else if (dtb<8.5){
+            alert("Hoc luc kha");
+        }  else {
+            alert("Hoc luc gioi");
+        }
+    </script>
+</body>
+</html>
